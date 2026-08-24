@@ -75,6 +75,7 @@ body {
 }
 
 #inicio {
+    padding: 290px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,6 +83,7 @@ body {
     position: relative;
     background: rgba(0, 0, 0, 0.303);
     text-align: center;
+    overflow: hidden;
 }
 
 #inicio #video-fundo {
@@ -91,9 +93,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* Corta o vídeo proporcionalmente para preencher a tela */
     z-index: -1;
-    /* Joga o vídeo para trás de tudo */
 }
 
 .texto-inicio {
@@ -102,22 +102,29 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 0 10%;
 }
 
- .texto-inicio h1 {
+.texto-inicio h1 {
     font-size: 2rem;
+    margin-bottom: 0.3rem;
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
-} 
+    line-height: 1.1;
+}
 
 .texto-inicio h3 {
-    font-size: 0.5.rem;
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); */
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+    line-height: 1.25;
 }
 
 .btn {
     padding: var(--espaco-pequeno) var(--espaco-medio);
     border-radius: 0.25rem;
     font-weight: bold;
+    line-height: 1.3;
 }
 
 .btn-cta {
@@ -133,11 +140,14 @@ body {
 }
 
 #funcoes {
+    background-color: rgba(0, 0, 0, 0.756);
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-height: 80vh;
+    min-height: 50vh;
     justify-content: space-around;
+    margin: 0;
+    line-height: 1.1;
 }
 
 .funcionalidade {
@@ -190,14 +200,65 @@ body {
     flex-wrap: wrap;
 
 }
- #depoimentos{
-    background-image: url();
-} 
+.depoimento {
+    background-image: url("img/imagem 3.jpg");
+    background-size: cover;
+    background-position: center;
 
+    color: white;
 
+    padding: 30px;
+}
 
+.cliente {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.texto {
+    width: 60%;
+}
 
+.texto h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.texto p {
+    font-size: 13px;
+}
+
+.texto span {
+    font-size: 12px;
+}
+
+.cliente img {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.resultado {
+    margin-top: 40px;
+}
+
+.estrelas {
+    color: yellow;
+    font-size: 30px;
+}
+
+.resultado h2 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.resultado p {
+    font-size: 16px;
+    margin: 0;
+}
 
 /* Regras de responsividade */
 
