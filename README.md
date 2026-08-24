@@ -2,7 +2,6 @@ Projeto prático da unidade curricular de , do curso Técnico em
 Desenvolvimento de Sistemas — SESI/SENAI Itapeva.
 
 
-
 | | |
 |---|---|
 |  | Melissa Oliveira Tomé |
@@ -11,16 +10,17 @@ Desenvolvimento de Sistemas — SESI/SENAI Itapeva.
 |  | 17/08/2026 |
 
 
-
-Landing page de apresentação do , um drone agrícola fictício voltado à
+Landing page de apresentação do  DJI Agras T50, um drone agrícola fictício voltado à
 pulverização e ao monitoramento de lavouras. O objetivo da página é convencer o
 agricultor a agendar uma demonstração do produto.
 
 O layout foi construído a partir de um protótipo no Figma, com HTML semântico e CSS,
 sem frameworks.
 
+O site é dividido em 5 seções,
 > Escreva aqui, com suas palavras, o que você fez neste projeto e o que achou mais
 > difícil. Duas ou três frases bastam — não copie o texto acima.
+
 
 
 
@@ -46,10 +46,8 @@ landing-page-drone/
 - [X] Especificações
 - [X] Vídeo do produto
 - [X] Cards de benefícios
-- [ ] Depoimentos
-- [ ] Formulário de contato
-
-<!-- Marque com um X entre os colchetes as seções que você concluiu: [x] -->
+- [X] Depoimentos
+- [X] Formulário de contato
 
 
 
@@ -66,14 +64,14 @@ media queries acrescentam o comportamento das telas maiores, a partir de .
 
 | Tela | Comportamento |
 |---|---|
-| Celular | [descreva: o menu some, os cards empilham...] |
-| Desktop | [descreva: o menu aparece, três cards por linha...] |
+| Celular | O "Menu" mantem apenas a opção "Agende" e as seções ocupam apenas uma coluna.|
+| Desktop | O "Menu" inclui .|
 
 
 
 ```bash
 git clone [url do seu repositório]
-cd [nome da pasta]
+cd Projeto Drone
 ```
 
 Depois é só abrir o `index.html` no navegador.
