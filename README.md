@@ -43,8 +43,8 @@ landing-page-drone/
 
 - [X] Menu (cabeçalho)
 - [X] Hero section
-- [ ] Especificações
-- [ ] Vídeo do produto
+- [X] Especificações
+- [X] Vídeo do produto
 - [X] Cards de benefícios
 - [ ] Depoimentos
 - [ ] Formulário de contato

@@ -10,6 +10,7 @@
 
 <body>
 
+    <!-- HEADER / NAVEGAÇÃO -->
     <header>
         <div class="cabecalho">
             <div class="nome">
@@ -19,16 +20,17 @@
                 <nav class="menu">
                     <a href="#funcoes">Funções</a>
                     <a href="#especificacoes">Especificações</a>
-                    <a href="#depoimentos">Depoimentos</a>
+                    <a href="#depoimento">Depoimentos</a>
                 </nav>
                 <a href="#agende" class="btn btn-cta">Agende</a>
             </div>
         </div>
     </header>
+
     <main class="corpo">
 
+        <!-- SEÇÃO: INÍCIO -->
         <section id="inicio">
-            <!-- OBRIGATÓRIO: muted para o autoplay funcionar no navegador -->
             <video autoplay muted loop playsinline id="video-fundo">
                 <source src="img/Vídeo 1.webm" type="video/mp4">
             </video>
@@ -39,6 +41,7 @@
             <a href="#agende" class="btn btn-cta">QUERO UMA DEMOSNTRAÇÃO</a>
         </section>
 
+        <!-- SEÇÃO: FUNÇÕES -->
         <section id="funcoes">
             <h1 class="texto">Monitore e aplique defensivos agrícolas com precisão, economia e segurança ambiental.</h1>
             <div class="funcionalidade">
@@ -54,11 +57,12 @@
             </div>
         </section>
 
+        <!-- SEÇÃO: ESPECIFICAÇÕES -->
         <section id="especificacoes">
-            <div class="especific topo"> 
+            <div class="especific topo">
                 <video autoplay muted loop playsinline id="video-drone">
                     <source src="img/Vídeo 2.webm" type="video/mp4">
-                </video> 
+                </video>
             </div>
             <div class="especific boxes">
                 <div class="box-info">
@@ -86,42 +90,94 @@
                     <h3>E muito mais!</h3>
                 </div>
             </div>
-
         </section>
 
-        <section id="depoimentos">
-            <section class="depoimento">
+        <!-- SEÇÃO: DEPOIMENTO -->
+        <section id="depoimento">
+            <div class="cliente">
+                <div class="texto">
+                    <h2>Quem já testou,<br>recomenda</h2>
 
-                <div class="cliente">
-                    <div class="texto">
-                        <h2>Quem já testou,<br>recomenda</h2>
+                    <p>
+                        “Em poucas semanas, conseguimos
+                        identificar e tratar áreas críticas que
+                        estavam comprometendo nossa
+                        produtividade.”
+                    </p>
 
-                        <p>
-                            “Em poucas semanas, conseguimos
-                            identificar e tratar áreas críticas que
-                            estavam comprometendo nossa
-                            produtividade.”
-                        </p>
-
-                        <span>Carlos Mendes, Engenheiro Florestal, MG</span>
-                    </div>
-
-                    <img src="img/imagem 4.jpg" alt="Engenheiro Florestal">
+                    <span>Carlos Mendes, Engenheiro Florestal, MG</span>
                 </div>
+
+                <img src="img/imagem 4.jpg" alt="Engenheiro Florestal">
 
                 <div class="resultado">
                     <div class="estrelas">★★★★★</div>
-
                     <h2>Mais de 250 fazendas</h2>
                     <p>atendidas em todo o Brasil.</p>
                 </div>
-
-</section>
-
+            </div>
         </section>
 
-        <section id="agende"></section>
+        <!-- SEÇÃO: AGENDE -->
+        
+        <section id="agende">
 
+            <!-- LADO ESQUERDO -->
+            <div class="agende_conteiner">
+                <h1>🎯 Pronto para ver de perto?</h1>
+                <h3>Nossa equipe técnica vai até você!</h3>
+                <p>
+                    Faça um teste gratuito com nosso drone<br>
+                    em operação real no seu plantio florestal.<br>
+                    Sem compromisso, 100% prático.
+                </p>
+                <div class="contato">
+                    <p>📞 Suporte: (11) 99999-0000</p>
+                    <p>📍 Atendemos todo o sudeste e centro-oeste.</p>
+                </div>
+            </div>
+
+            <!-- LADO DIREITO — FORMULÁRIO -->
+            <div class="agende_formulario">
+                <form>
+                    <div class="campo">
+                        <label for="nome">Nome:</label>
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Value"
+                        >
+                    </div>
+                    <div class="campo">
+                        <label for="celular">Celular:</label>
+                        <input
+                            type="tel"
+                            id="celular"
+                            name="celular"
+                            placeholder="Value"
+                        >
+                    </div>
+                    <div class="campo">
+                        <label for="email">Email:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Value"
+                        >
+                    </div>
+                    <button type="submit">
+                        AGENDAR UMA DEMONSTRAÇÃO
+                    </button>
+                </form>
+            </div>
+        </section>
+           <footer>
+        <div class="footer_texto">
+            <p>Todos os direitos reservados por Mel</p>
+        </div>
+    </footer>
     </main>
 </body>
 
